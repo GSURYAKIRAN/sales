@@ -13,9 +13,7 @@ st.set_page_config(
 )
 
 # Load Dataset
-df = pd.read_csv(
-    r"C:\Users\91739\OneDrive\Desktop\Mainproject1\Data\Retail Sales and Profit.csv"
-)
+df = pd.read_csv("Data/Retail Sales and Profit.csv")
 
 df.columns = df.columns.str.strip()
 
